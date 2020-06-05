@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'rexarv';
+  src:  url('fonts/rexarv.eot?s4g51h');
+  src:  url('fonts/rexarv.eot?s4g51h#iefix') format('embedded-opentype'),
+    url('fonts/rexarv.ttf?s4g51h') format('truetype'),
+    url('fonts/rexarv.woff?s4g51h') format('woff'),
+    url('fonts/rexarv.svg?s4g51h#rexarv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rexarv' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ra-blogger:before {
+  content: "\e900";
+  color: #ff5722;
+}
+.ra-facebook:before {
+  content: "\e907";
+  color: #1877f2;
+}
+.ra-gmail:before {
+  content: "\e901";
+  color: #d14836;
+}
+.ra-instagram1:before {
+  content: "\e903";
+  color: #e4405f;
+}
+.ra-twitter1:before {
+  content: "\e904";
+  color: #1da1f2;
+}
+.ra-whatsapp1:before {
+  content: "\e905";
+  color: #25d366;
+}
+.ra-youtube1:before {
+  content: "\e906";
+  color: #f00;
+}
+.ra-download:before {
+  content: "\e960";
+}
+.ra-cart:before {
+  content: "\e93a";
+}
