@@ -1,38 +1,14 @@
 var products=[
-{id:'CT22062019',
-name:"Cine LUTs for Sony A7III, A7RIII0",
-category:'Table',
-date:'22 June 2019',
+{id:'ST1699108',
+name:"Study Table with Two Drawer in Nut Brown Finish by Mikareo",
+price:7499,
+oldPrice:'Rs. 13496',
 image:'items/500.jpg',
-material:'Wood',
-price:2900,
-oldPrice:'Rs. 3200',
-seller:'Happy Workers',
-about:'Here you can tell something about this product. You can also write unique features specific to this product.'},
-
-{id:'CT22062019',
-name:"Sony Vegas Pro Max Ultimate Ultra",
+video:'https://youtu.be/1jDkrhxWLUA',
 category:'Table',
+material:'Engineered Wood',
 date:'22 June 2019',
-image:'items/528.jpg',
-material:'Wood',
-price:1200,
-oldPrice:'Rs. 3200',
-seller:'Happy Workers',
-about:'Here you can tell something about this product. You can also write unique features specific to this product.'},
-
-{id:'CT22062019',
-name:"Cine LUTs for Sony A7III, A7RIII",
-category:'Table',
-date:'22 June 2019',
-image:'items/528.jpg',
-material:'Wood',
-price:2900,
-oldPrice:'Rs. 3200',
-seller:'Happy Workers',
-about:'Here you can tell something about this product. You can also write unique features specific to this product.'},
-
-
+about:'Mikareo is a classic amalgamation of form and function. Crafted for compact homes, the range is clean and convenient and has an understated design aesthetic that adapts to any space. Modern is a distinct, defined style which originated in the early 1800s.'},
 
 
 ]

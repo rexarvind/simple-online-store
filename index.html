@@ -30,11 +30,11 @@
 
 <!-- Navigation Tabs -->
 <ul class="tabs" id="tabs">
-<li data-tab-target="#shelf" class="tab active"><h3>Shelf</h3></li>
+<li data-tab-target="#shelf" class="tab active"><i class="ra-archive"></i><h5>Shelf</h5></li>
 
-<li data-tab-target="#cart" class="tab"><h3>Cart</h3></li>
+<li data-tab-target="#cart" class="tab"><i class="ra-shopping-bag"></i><h5>Cart</h5></li>
 
-<li data-tab-target="#about" class="tab"><h3>About</h3></li>
+<li data-tab-target="#about" class="tab"><i class="ra-bank"></i><h5>About</h5></li>
 </ul>
 
 <!-- Main Content Area -->
@@ -43,7 +43,7 @@
 <!-- Content of Tab -->
 <div id="shelf" data-tab-content class="active">
 
-<div class="alertBox">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+<div class="alertBox">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
 
 <a href="#" class="btn">Price Low to High</a>
 <a href="#" class="btn">Price High to Low</a>
@@ -148,18 +148,22 @@
 <!-- Content of Tab -->
 <div id="cart" data-tab-content>
 
-<div class="alertBox">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+<div class="alertBox">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
 
 <div class="cartContainer">
 
+<h2>Your Cart is Empty</h2>
 
 </div><!-- cartContainer -->
 
+<div class="flexbox">
 <h3 id="cartTotal">Rs. 0</h3>
 
-<a href="https://api.whatsapp.com/send?phone=918181040977&text=Hey%20Arvind" class="btn btn-purchase">Purchase</a>
+<a href="https://api.whatsapp.com/send?phone=918181040977&text=Hey%20Arvind" class="btn-purchase">CHECKOUT</a>
+<h5>You'll be redirected to WhatsApp with details of Cart.</h5>
 
-<h3 id="cartReceipt" style="text-align:center">Your Cart is Empty</h3>
+
+</div> <!-- flexbox -->
 
 
 </div>
@@ -220,12 +224,11 @@ for (i=0;i<l;i++){content+=`
 <h3>${products[i].name}</h3>
 <p>${products[i].about}</p><br>
 
-<p><strong>Watch Video:</strong> <a href="" target="_blank">https://youtu.be/1jDkrhxWLUA</a></p>
 <p><strong>Product Id:</strong> ${products[i].id}</p>
+<p><strong>Watch Video:</strong> <a href="${products[i].video}" target="_blank">${products[i].video}</a></p>
 <p><strong>Price (Rs.):</strong> ${products[i].price}</p>
 <p><strong>Category:</strong> ${products[i].category}</p>
-<p><strong>Material:</strong> ${products[i].material}</p>
-<p><strong>Seller:</strong> ${products[i].seller}</p>
+<p><strong>Primary Material:</strong> ${products[i].material}</p>
 <p><strong>Date Added:</strong> ${products[i].date}</p>
 </div>
 </div>

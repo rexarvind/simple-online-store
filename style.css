@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rexarv';
-  src:  url('fonts/rexarv.eot?s4g51h');
-  src:  url('fonts/rexarv.eot?s4g51h#iefix') format('embedded-opentype'),
-    url('fonts/rexarv.ttf?s4g51h') format('truetype'),
-    url('fonts/rexarv.woff?s4g51h') format('woff'),
-    url('fonts/rexarv.svg?s4g51h#rexarv') format('svg');
+  src:  url('fonts/rexarv.eot?uy5xue');
+  src:  url('fonts/rexarv.eot?uy5xue#iefix') format('embedded-opentype'),
+    url('fonts/rexarv.ttf?uy5xue') format('truetype'),
+    url('fonts/rexarv.woff?uy5xue') format('woff'),
+    url('fonts/rexarv.svg?uy5xue#rexarv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -53,9 +53,33 @@ i {
   content: "\e906";
   color: #f00;
 }
-.ra-download:before {
-  content: "\e960";
+.ra-heart:before {
+  content: "\f004";
 }
-.ra-cart:before {
-  content: "\e93a";
+.ra-star:before {
+  content: "\f005";
+}
+.ra-map-marker:before {
+  content: "\f041";
+}
+.ra-heart-o:before {
+  content: "\f08a";
+}
+.ra-archive:before {
+  content: "\f187";
+}
+.ra-bank:before {
+  content: "\f19c";
+}
+.ra-institution:before {
+  content: "\f19c";
+}
+.ra-university:before {
+  content: "\f19c";
+}
+.ra-trash:before {
+  content: "\f1f8";
+}
+.ra-shopping-bag:before {
+  content: "\f290";
 }
