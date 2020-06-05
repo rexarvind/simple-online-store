@@ -48,7 +48,7 @@ color:#fff
 ;
 border-radius:0 0 9px 9px;
 box-shadow:0 2px 5px rgba(0,0,0,0.4);
-top:0; transition:top 1s;
+top:0; transition:top 400ms;
 height:45px; position: fixed}
 
 .headerItem h2{position:relative;top:2px;}

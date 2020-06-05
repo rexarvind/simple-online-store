@@ -45,11 +45,11 @@
 
 <div class="alertBox">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
 
-<a href="#" class="btn">Price Low to High</a>
-<a href="#" class="btn">Price High to Low</a>
-<a class="btn">Sort by Date</a>
-<a class="btn">Sort by Category</a>
-<a class="btn">Sort by Material</a>
+<a class="btn" id="priceLowToHigh">Price Low to High</a>
+<a class="btn" id="priceHighToLow">Price High to Low</a>
+<a class="btn" id="sortByDateBtn">Sort by Date</a>
+<a class="btn" id="sortByCategoryBtn">Sort by Category</a>
+<a class="btn" id="sortByMaterialBtn">Sort by Material</a>
 
 
 
@@ -152,7 +152,6 @@
 
 <div class="cartContainer">
 
-<h2>Your Cart is Empty</h2>
 
 </div><!-- cartContainer -->
 
@@ -193,7 +192,7 @@ window.addEventListener('scroll', function(){
 
 var scrollTop=window.pageYOffset || document.documentElement.scrollTop;
 if(scrollTop>lastScrollTop)
-{header.style.top="-45px";}
+{header.style.top="-50px";}
 else{
 header.style.top="0px";}
 
@@ -246,7 +245,7 @@ for (i=0;i<l;i++){content+=`
 
 </script>
 
-  <script src="store.js"></script>
+  <script src="store.min.js"></script>
 
 
 
