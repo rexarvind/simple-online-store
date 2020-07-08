@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rexarv';
-  src:  url('fonts/rexarv.eot?uy5xue');
-  src:  url('fonts/rexarv.eot?uy5xue#iefix') format('embedded-opentype'),
-    url('fonts/rexarv.ttf?uy5xue') format('truetype'),
-    url('fonts/rexarv.woff?uy5xue') format('woff'),
-    url('fonts/rexarv.svg?uy5xue#rexarv') format('svg');
+  src:  url('fonts/rexarv.eot?bi2rur');
+  src:  url('fonts/rexarv.eot?bi2rur#iefix') format('embedded-opentype'),
+    url('fonts/rexarv.ttf?bi2rur') format('truetype'),
+    url('fonts/rexarv.woff?bi2rur') format('woff'),
+    url('fonts/rexarv.svg?bi2rur#rexarv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +13,7 @@
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'rexarv' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -77,9 +77,57 @@ i {
 .ra-university:before {
   content: "\f19c";
 }
-.ra-trash:before {
-  content: "\f1f8";
-}
 .ra-shopping-bag:before {
   content: "\f290";
+}
+.ra-close:before {
+  content: "\f00d";
+}
+.ra-remove:before {
+  content: "\f00d";
+}
+.ra-times:before {
+  content: "\f00d";
+}
+.ra-trash-o:before {
+  content: "\f014";
+}
+.ra-info:before {
+  content: "\f129";
+}
+.ra-times-rectangle:before {
+  content: "\f2d3";
+}
+.ra-window-close:before {
+  content: "\f2d3";
+}
+.ra-trash:before {
+  content: "\e909";
+}
+.ra-circle-with-cross:before {
+  content: "\e90a";
+}
+.ra-cross1:before {
+  content: "\e908";
+}
+.ra-info2:before {
+  content: "\e902";
+}
+.ra-squared-cross:before {
+  content: "\e90b";
+}
+.ra-bin:before {
+  content: "\e9ac";
+}
+.ra-bin2:before {
+  content: "\e9ad";
+}
+.ra-info1:before {
+  content: "\ea0c";
+}
+.ra-cancel-circle:before {
+  content: "\ea0d";
+}
+.ra-cross:before {
+  content: "\ea0f";
 }

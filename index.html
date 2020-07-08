@@ -11,6 +11,7 @@
 </head>
 <body>
 <div class="wrapper">
+
 <div class="header" id="header">
 
 <div class="headerItem">
@@ -28,13 +29,16 @@
 
 </div>
 
+
+
 <!-- Navigation Tabs -->
-<ul class="tabs" id="tabs">
+<ul class="tabs">
 <li data-tab-target="#shelf" class="tab active"><i class="ra-archive"></i><h5>Shelf</h5></li>
 
 <li data-tab-target="#cart" class="tab"><i class="ra-shopping-bag"></i><h5>Cart</h5></li>
 
 <li data-tab-target="#about" class="tab"><i class="ra-bank"></i><h5>About</h5></li>
+
 </ul>
 
 <!-- Main Content Area -->
@@ -50,6 +54,13 @@
 <a class="btn" id="sortByDateBtn">Sort by Date</a>
 <a class="btn" id="sortByCategoryBtn">Sort by Category</a>
 <a class="btn" id="sortByMaterialBtn">Sort by Material</a>
+
+<div id="alreadyInCartMsg">This item is already added to the Cart</div>
+
+
+<style>
+@media print {body{display:none}}
+</style>
 
 <div id="shelfContainer">
 
@@ -73,6 +84,7 @@
 <h5>You'll be redirected to WhatsApp with details of Cart.</h5>
 
 
+
 </div> <!-- flexbox -->
 
 
@@ -82,16 +94,54 @@
 <div id="about" data-tab-content>
 
 
-<a id="topper" class="showAnchor"></a>
-<h1>About</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget est lorem ipsum. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. At imperdiet dui accumsan sit amet nulla. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Adipiscing at in tellus integer feugiat scelerisque varius. Sed faucibus turpis in eu. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Amet nisl purus in mollis. Ultricies lacus sed turpis tincidunt. Habitant morbi tristique senectus et netus et malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Ligula ullamcorper malesuada proin libero nunc consequat. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget est lorem ipsum. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. At imperdiet dui accumsan sit amet nulla. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Adipiscing at in tellus integer feugiat scelerisque varius. Sed faucibus turpis in eu. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Amet nisl purus in mollis. Ultricies lacus sed turpis tincidunt. Habitant morbi tristique senectus et netus et malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Ligula ullamcorper malesuada proin libero nunc consequat. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget est lorem ipsum. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. At imperdiet dui accumsan sit amet nulla. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Adipiscing at in tellus integer feugiat scelerisque varius. Sed <a href="#topper">faucibus turpis</a> in eu. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Amet nisl purus in mollis. Ultricies lacus sed turpis tincidunt. Habitant morbi tristique senectus et netus et malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Ligula ullamcorper malesuada proin libero nunc consequat. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor.</p>
+<a id="topOfPage" class="showAnchor"></a>
+
+
+<img src="banner.jpg" title="Shanu Furniture House" alt="Yo Man">
+
+<h2>Shanu Furniture House Lucknow</h2>
+<h3>Vigyan Khand, Gomti Nagar Lucknow, Near Loyala Public School <i class="ra-map-marker"></i></h3>
+
+<br><br>
+
+<h1>Controlling File Size</h1>
+
+
+<h2>Writing purgeable HTML</h2>
+
+<h3>Shanu Furniture House h3</h3>
+<h4>Shanu Furniture House h4</h4>
+<h5>Shanu Furniture House h5</h5>
+<h6>Shanu Furniture House</h6>
+
+<h1>Shanu Furniture House Lucknow</h1>
+<h2>Maggi</h2>
+<p>Adipiscing at in tellus integer feugiat scelerisque varius. Sed <a >faucibus turpis</a> in eu. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Amet nisl purus in mollis. Ultricies lacus sed turpis tincidunt. Habitant morbi tristique senectus et netus et malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Ligula ullamcorper malesuada proin libero nunc consequat. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor.</p>
+
+
+
+<a href="" class="socialLink"><i class="ra-twitter1"></i></a>
+<a href="" class="socialLink"><i class="ra-instagram1"></i></a>
+<a href="" class="socialLink"><i class="ra-blogger"></i></a>
+<a href="" class="socialLink"><i class="ra-facebook"></i></a>
+<a href="" class="socialLink"><i class="ra-gmail"></i></a>
+<a href="" class="socialLink"><i class="ra-whatsapp1"></i></a>
+<a href="" class="socialLink"><i class="ra-youtube1"></i></a>
+
+<a href="#topOfPage">Go to Top <i class="ra-heart"></i></a>
+
+
+<br><br>
+<h4>&copy; Copyright 2020</h4>
 
 </div>
 
 
 </div><!-- Main Content Area -->
 
+
+
 </div><!-- Wrapper -->
 <script src="products.js"></script>
-<script src="store.min.js"></script>
+<script src="store.js"></script>
 </body></html>
